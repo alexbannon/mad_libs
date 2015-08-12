@@ -22,7 +22,7 @@ h1{
   letter-spacing:.05em;
 }
 
-.render{
+.button{
   border: 2px solid #fff;
   display:inline-block;
   margin-top:2em;
@@ -31,7 +31,7 @@ h1{
   transition: all .2s ease;
 }
 
-.render:hover{
+.button:hover{
   background: #fff;
   color: #3D1D6B;
 }

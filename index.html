@@ -8,11 +8,18 @@
 </head>
 <body>
   <h1>Mad Libs!</h1>
-  <p>"This is a <span> |||noun||| </span> there are many like it, but this one is yours</p>
-  <p>You will <span> |||verb||| </span> it every day," said the <span> |||noun||| </span> in a <span> |||adjective||| </span> tone</p>
-  <p>Unpleased, I <span> |||adverb||| </span> <span> |||verb||| </span> a <span> |||noun||| </span></p>
+  <p>"This is a <span id="span_one"><input type="text" placeholder="noun" id="input_one"></span> there are many like it, but this one is yours</p>
+  <p>You will <span id="span_two"><input type=text placeholder="verb" id="input_two"></span> it every day," said the <span id="span_three"><input type=text placeholder="noun" id="input_three"></span> in a <span id="span_four"><input type=text placeholder="adjective" id="input_four"></span> tone</p>
+  <p>Unpleased, I <span id="span_five"><input type=text placeholder="adverb" id="input_five"></span> <span id="span_six"><input type=text placeholder="verb" id="input_six"></span> a <span id="span_seven"><input type=text placeholder="noun" id="input_seven"></span></p>
 
-  <div class="render">Render</div>
+  <div class="button" id="render">Render</div>
+
+  <h1>Mad Libs!</h1>
+  <p>"This is a <span class="clickable"> |NOUN| </span> there are many like it, but this one is yours</p>
+  <p>You will <span class="clickable"> |VERB| </span> it every day," said the <span class="clickable"> |NOUN| </span> in a <span class="clickable"> |ADJECTIVE| </span> tone</p>
+  <p>Unpleased, I <span class="clickable"> |ADVERB| </span> <span class="clickable"> |VERB| </span> a <span class="clickable"> |NOUN| </span></p>
+
+
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script src="script.js"></script>
 </body>
